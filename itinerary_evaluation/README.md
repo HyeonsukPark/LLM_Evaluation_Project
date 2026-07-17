@@ -50,3 +50,5 @@ The core engine automatically parses and cross-references LLM responses across t
 │  │   locations   │ │  constraints   │ │ relation_data│ │
 │  └───────────────┘ └────────────────┘ └──────────────┘ │
 └────────────────────────────────────────────────────────┘
+
+My Personal Blog for the project: [link](https://nextgenqahub.blogspot.com/2026/07/mini-project-llm-evaluation-evaluating.html)
