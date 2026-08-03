@@ -70,4 +70,8 @@ The core engine automatically parses and cross-references LLM responses across t
 │  └───────────────┘ └────────────────┘ └──────────────┘ │
 └────────────────────────────────────────────────────────┘
 
+---
 
+## Disclaimer
+
+The dataset used in this repository is synthetically generated for learning purposes and does not represent real human annotation data or production LLM evaluation results.
