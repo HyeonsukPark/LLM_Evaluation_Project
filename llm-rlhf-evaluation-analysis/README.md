@@ -1,5 +1,9 @@
 # RLHF Evaluation Analysis with a Synthetic LLM Preference Dataset
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)
+
+
 ## Overview
 
 This project explores the evaluation of **Large Language Models (LLMs)** using a synthetic **Reinforcement Learning from Human Feedback (RLHF)** dataset. Rather than training or fine-tuning a language model, this notebook focuses on understanding how modern LLMs are evaluated through reward models, human preferences, and alignment-related metrics.
