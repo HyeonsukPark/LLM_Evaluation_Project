@@ -50,18 +50,18 @@ The core engine automatically parses and cross-references LLM responses across t
 ## System Architecture
 
 ```text
-[ LLM Generated Itinerary ] (JSON)
-           │
-           ▼
+           [ LLM Generated Itinerary ] (JSON)
+                          │
+                          ▼
 ┌────────────────────────────────────────────────────────┐
 │               Python Rule Engine                       │
 │                                                        │
 │  1. check_quality()   ──► Validate Entities & Hours    │
 │  2. closing_day_check() ──► Cross-reference Calendar   │
 │  3. check_route_efficiency() ──► Calculate Spatial Loop│
-└───────────────────────┬────────────────────────────────┘
-                        │ (Queries via Pandas)
-                        ▼
+└───────────────────── ─ ─┬────────────────────────────────┘
+                          │ (Queries via Pandas)
+                          ▼
 ┌────────────────────────────────────────────────────────┐
 │             SQLite Ground Truth DB                     │
 │                                                        │
